@@ -463,3 +463,4 @@ Built by [TheQuantum-Dev](https://github.com/TheQuantum-Dev)
 <sub>Previously released as Tradello (v1.0.0 – v2.3.0). Renamed to better reflect its purpose — turning your journal into your edge.</sub>
 
 </div>
+# journedge
