@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  journedge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: journedge
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=file:/app/prisma/data/journedge.db
+    # Persistent Storage (Volumes)
+    volumes:
+      - journedge-db:/app/prisma/data
+      - journedge-uploads:/app/public/uploads
+    # Custom Network Communication
+    networks:
+      - journedge-net
+    restart: unless-stopped
+
+# Named Volumes for Storage Persistence
+volumes:
+  journedge-db:
+    driver: local
+  journedge-uploads:
+    driver: local
+
+# Custom Bridge Network for Isolated Communication
+networks:
+  journedge-net:
+    driver: bridge
