@@ -255,7 +255,7 @@ Shortcuts are disabled while typing in any input field or the journal editor.
 ### Installation
 
 ```bash
-git clone https://github.com/Vaibhavkarkute/journedge.git
+git clone https://github.com/TheQuantum-Dev/journedge.git
 cd journedge
 npm install
 cp .env.example .env
@@ -411,7 +411,7 @@ journedge/
 - Light mode and dark mode with no flash on load
 - Keyboard shortcuts with in-app help overlay
 - JSON export alongside existing CSV and PDF
-- Trade deletion from the Dashboard, Journal, and trade quick-view panel (requested by [@thomasfischer089](https://github.com/thomasfischer089) in [#2](https://github.com/Vaibhavkarkute/journedge/issues/2))
+- Trade deletion from the Dashboard, Journal, and trade quick-view panel (requested by [@thomasfischer089](https://github.com/thomasfischer089) in [#2](https://github.com/TheQuantum-Dev/journedge/issues/2))
 
 **v3.2.1**
 - Charles Schwab Realized Gain/Loss CSV import support (community contribution)
@@ -430,7 +430,7 @@ Contributions are welcome. Please read [CONTRIBUTING.md](./CONTRIBUTING.md) befo
 
 Thanks to [@lollllcat](https://github.com/lollllcat) for the Charles Schwab import support in v3.2.1 — the first community-contributed feature merged into Journedge.
 
-Thanks to [@thomasfischer089](https://github.com/thomasfischer089) for requesting per-trade deletion in [#2](https://github.com/Vaibhavkarkute/journedge/issues/2) — implemented in v4.0.0.
+Thanks to [@thomasfischer089](https://github.com/thomasfischer089) for requesting per-trade deletion in [#2](https://github.com/TheQuantum-Dev/journedge/issues/2) — implemented in v4.0.0.
 
 ---
 
@@ -454,7 +454,7 @@ Journedge is open source under the [MIT License](./LICENSE).
 
 <div align="center">
 
-Built by [Vaibhavkarkute](https://github.com/Vaibhavkarkute)
+Built by [TheQuantum-Dev](https://github.com/TheQuantum-Dev)
 
 *Built for traders who take their craft seriously.*
 
